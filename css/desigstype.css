@@ -1,0 +1,387 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+/** hau nos yog navbar/**/
+.logoplogteb{
+  color: red;
+}
+.logoplogteb span{
+  color: #f11ed5;
+}
+.logoplogteb i{
+  color: #f11ed5;
+  font-size: 30px;
+}
+#logoweb{
+  color: blue;
+  size: 50px;
+}
+#facebook{
+  color: rgb(160, 188, 240);
+  font-size: 25px;
+}
+#whatapp{
+  color: rgb(134, 233, 164);
+  font-size: 25px;
+}
+#intragram{
+  color: rgb(201, 163, 114);
+  font-size: 25px;
+}
+#email{
+  color: rgb(228, 185, 199);
+  font-size: 25px;
+}
+#login{
+  border-radius: 30px;
+}
+#contact{
+  color: #fff;
+}
+#hmong{
+  color: #fff;
+}
+#laos{
+  color: #fff;
+}
+#english{
+  color: #fff;
+}
+/** hau nos yog choces/**/
+#topimgandtext{
+  background-color: #107b9c;
+}
+#topimgandtext ins{
+  color: #fff;
+}
+#topimgandtext img{
+  height: 800px;
+}
+@media screen and (max-width: 767px){
+  #topimgandtext img{
+    height: auto;
+  }
+}
+#textnavbar{
+  background-color: #107b9c;
+}
+#zoosiab{
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 60px;
+}
+#zoosiab span{
+color: hsl(39, 86%, 59%);
+}
+.choose{
+  width: 279px;
+}
+.neb{
+  color: #fff;
+	text-align: center;
+	font-size: 20px;
+	cursor: default;
+}
+.pojtxiv{
+	background-color: #fff;
+	border: 20px solid #107b9c;
+	width: 100px;
+	border-radius: 10px solid #107b9c;
+	height: 60px;
+	cursor: default;
+	text-align: center;
+}
+.pojtxiv input{
+	margin-left: -30px;
+
+}
+#Nriav1{
+	width: 200px;
+	text-align: center;
+	border: 0px;
+	border-radius: 5px;
+	height: 40px;
+	background-color: #F7AF7F;
+	margin-left: 30px;
+	font-size: 20px;
+	color: #3732B5;
+	
+}
+#Nriav1:hover{
+	font-size: 10px;
+	background-color: #ADEFEB;
+}
+#cais{
+  color: #fff;
+	font-size: smaller;
+	text-align: left;
+	cursor: default;
+	display: none;
+	
+}
+#cais span{
+	font-size: 15px;
+	color: red;
+}
+.d-block{
+  height: 900px;
+  display: block;
+}
+@media screen and (max-width: 767px) {
+  .d-block{
+    height: auto;
+  }
+}
+/** hau nos yog sdietext ua nyob haus qab img/**/
+#slidetext{
+  background-color: #107b9c;
+}
+#slidetext marquee{
+  color: #F5CA94;
+}
+#threetextslide{
+  background-color: #107b9c;
+  text-align: center;
+  color: #fff;
+}
+#threetextslide i{
+  color: #f11ed5;
+  padding-top: 30px;
+  font-size: 30px;
+}
+#threetextslide span{
+  font: large;
+  font-size: smaller;
+}
+#text1{
+  background-color: #2b4f6d;
+}
+#text2{
+  background-color: #4f1f5e;
+}
+/**hau nos yog peb yuav pab koj kom tau lis koj siab xav /**/
+#pebpabkoj{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+#logoshowhlub1{
+  width: 30%;
+  color: #BEF199;
+  font-size: 100px;
+}
+#logoshowhlub2{
+  width: 30%;
+  color: #D1D158;
+  font-size: 100px;
+}
+#logoshowhlub3{
+  width: 30%;
+  color: #4CAAB1;
+  font-size: 100px;
+}
+@media screen and (max-width: 767px){
+  #logoshowhlub1{
+    width: 30%;
+    color: #BEF199;
+    font-size: 50px;
+  }
+  #logoshowhlub2{
+    width: 30%;
+    color: #D1D158;
+    font-size: 50px;
+  }
+  #logoshowhlub3{
+    width: 30%;
+    color: #4CAAB1;
+    font-size: 50px;
+  }
+}
+/**hau nos yog qhov ua koj muaj pheev xw thiab qhia qhov ua koj nriav /**/
+.kojmuajpheevxw{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 20px;
+}
+.kojmuajpheevxw b{
+  font-size: 30px;
+}
+.kojmuajpheevxw p{
+  font-size: 15px;
+  padding-top: 10px;
+} 
+.video1{
+  height: 400px;
+  width: 900px;
+}
+@media screen and (max-width: 767px){
+  .video1{
+    height: auto;
+  width: auto;
+  }
+}
+/** hau nos yog kev lom zem ua koj  yuav tau txais/**/
+.kevlomzem{
+  text-align: center;
+  color: hsl(202, 73%, 46%);
+  font-family: Arial, Helvetica, sans-serif;
+  font: larger;
+  padding-top: 80px;
+}
+/** hau nos yog text img thiab text maseger show ua koj yuav tau txais/**/
+#imgandtextshow{
+  text-align: center;
+  background-color:#E8E8E8;
+}
+#imgandtextshow p{
+  padding-top: 150px;
+  text-align: center;
+}
+.Nriav{
+	background-color: #F7AF7F;
+	width: 100px;
+	height: 40px;
+	border-radius: 20px ;
+	border: 0px;
+	list-style: none;
+}
+.Nriav:hover {
+	width: 110px;
+	background-color: #99F7B8;
+}
+#imgandtextshow img{
+  height: 740px;
+}
+@media screen and (max-width: 767px){
+  #imgandtextshow img{
+    height: 400px;
+  }
+  .kevlomzem{
+    text-align: center;
+    color: hsl(202, 73%, 46%);
+    font-family: Arial, Helvetica, sans-serif;
+    font: larger;
+    padding-top: 20px;
+  }
+  #imgandtextshow p{
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+/** hau nos yog ua koom lawm tseeg siab tau rau yus/**/
+#textandvideo{
+  text-align: center;
+}
+#textandvideo p{
+  text-align: center;
+}
+#textandvideo iframe{
+  padding-top: 70px;
+}
+@media screen and (max-width: 767px){
+  .video2{
+    width: auto;
+    height: auto;
+  }
+}
+/** hau nos yo text thiab logo tso show kom lawm tseeem yus los yog ua zoo nkauj /**/
+#textandlogoshowlove{
+  text-align: center;
+  background-color:#F7AF7F ;
+}
+#textandlogoshowlove p{
+  color: #fff;
+  text-align: center;
+}
+#textandlogoshowlove form button{
+  border: 5px solid white;
+}
+#logoshowlove{
+  margin: 0px;
+  padding-top: 40px;
+  font-size: 200px;
+	color: hsl(244, 82%, 64%);
+	text-align: center;
+}
+@media screen and (max-width: 767px){
+  #logoshowlove{
+    padding-top: -40px;
+    font-size: 110px;
+  }
+}
+/** hau nos yog text foodter lawm os/**/
+#textfoodter{
+  background-color: hsl(195, 33%, 41%);
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+}
+#textfoodter i{
+  padding-top: 40px;
+}
+#ff{
+  font-size: 60px;
+  width: 15%;
+  color: #fff;
+}
+#fi{
+  font-size: 60px;
+  width: 15%;
+  color: #fff;
+}
+#fy{
+  font-size: 60px;
+  width: 15%;
+  color: #fff;
+}
+#logokawg{
+  color: #f11ed5;
+  font-size: 30px;
+}
+@media screen and (max-width: 767px){
+  #ff{
+    font-size: 30px;
+    width: 15%;
+    color: #fff;
+  }
+  #fi{
+    font-size: 30px;
+    width: 15%;
+    color: #fff;
+  }
+  #fy{
+    font-size: 30px;
+    width: 15%;
+    color: #fff;
+  }
+  #logokawg{
+    color: #f11ed5;
+    font-size: 30px;
+  }
+}
+/** hau nos yog page user ua yuav tau pom thiab muaj pheev xws yuav npaum tau/**/
+#profile{
+  width: 400px;
+  height: 600px;
+}
+#inputfile{
+  width: 400px;
+}
+#povtseg{
+  width: 50px;
+  border: 1px solid white;
+}
+.input-group-text{
+    cursor: pointer;
+}
+@media screen and (max-width: 767px){
+  .showname{
+    text-align: center;
+    padding-top: -10px;
+  }
+}
+#change{
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  border-radius: 30px solid red;
+}

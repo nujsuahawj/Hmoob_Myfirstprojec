@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigin</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styleform.css">
+</head>
+<body>
+    <form class="" method="POST" enctype="multipart/form-data" action="insertcustomere.php" name="" onsubmit="return login_error()">
+        <div class="login-box">
+            <h3>Register</h3>
+            <div class="textbox">
+                <p>Name and surname</p>
+                <input type="text" name="name_lastname"  placeholder="Name and surname" id="nl" >
+            </div>
+            <p class="error" id="nl_error" aria-autocomplete="off">Please enter your first and last name</p>
+            <div class="textbox">
+                <p>Phone number</p>
+                <input type="number" name="numberphome" id="nb" placeholder="Phone number" >
+            </div>
+            <p class="error" id="nb_error">Please enter your Phone number</p>
+            <div class="textbox">
+                <p>Email</p>
+                <input type="email" name="email" placeholder="Email" id="email">
+            </div>
+            <p class="error" id="email_error" aria-autocomplete="off">Please enter your email</p>
+            <div class="textbox">
+                <p>Password</p>
+                <input type="password" name="password" placeholder="Password" id="password">
+            </div>
+            <p class="error" id="password_error" aria-autocomplete="off">Please enter your password</p>
+            <div class="textbox">
+                <p>Confirm password</p>
+                <input type="password" name="password_onemore" placeholder="Confirm password" id="pwone">
+            </div>
+            <p class="error" id="pwone_error" aria-autocomplete="off">Please enter your password</p>
+            <input type="submit" class="btn" value="Register" >
+            <p class="foget_create"><a href="logine.php">Sign In</a></p>
+        </div>
+    </form>
+  </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/designform.js"></script>
+</body>
+</html>

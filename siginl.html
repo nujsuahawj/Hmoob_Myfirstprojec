@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigin</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styleform.css">
+</head>
+<body>
+    <form class="" method="POST" enctype="multipart/form-data" action="insertcustomerl.php" name="" onsubmit="return login_error()">
+        <div class="login-box">
+            <h3>ລົງທບຽນ</h3>
+            <div class="textbox">
+                <p>ຊື່ແລະນາມສະກຸນ</p>
+                <input type="text" name="name_lastname"  placeholder="ຊື່ແລະນາມສະກຸນ" id="nl" >
+            </div>
+            <p class="error" id="nl_error" aria-autocomplete="off">ກະລຸນາປ້ອນຊື່ແລະນາມສະກຸນຂອງທ່ານ</p>
+            <div class="textbox">
+                <p>ເບີໂທລະສັບ</p>
+                <input type="number" name="numberphome" id="nb" placeholder="ເບີໂທລະສັບ" >
+            </div>
+            <p class="error" id="nb_error">ກະລຸນາປ້ອນເບີໂທລະສັບຂອງທ່ານ</p>
+            <div class="textbox">
+                <p>ອີມີວ</p>
+                <input type="email" name="email" placeholder="ອີມີວ" id="email">
+            </div>
+            <p class="error" id="email_error" aria-autocomplete="off">ກະລຸນາປ້ອນອີມີວຂອງທ່ານ</p>
+            <div class="textbox">
+                <p>ລະຫັດ</p>
+                <input type="password" name="password" placeholder="ລະຫັດ" id="password">
+            </div>
+            <p class="error" id="password_error" aria-autocomplete="off">ກະລຸນາປ້ອນລະຫັດຂອງທ່ານ</p>
+            <div class="textbox">
+                <p>ຢືນຢັນລະຫັດຜ່ານ</p>
+                <input type="password" name="password_onemore" placeholder="ຢືນຢັນລະຫັດຜ່ານ" id="pwone">
+            </div>
+            <p class="error" id="pwone_error" aria-autocomplete="off">ກະລຸນາປ້ອນ ລະຫັດຢືນຢັນ</p>
+            <input type="submit" class="btn" value="ລົງທະບຽນ" >
+            <p class="foget_create"><a href="loginl.php">ລົງຊື່ເຂົ້າສູ່ລະບົບ</a></p>
+        </div>
+    </form>
+  </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/designform.js"></script>
+</body>
+</html>

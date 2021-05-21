@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nriav Tus Hlub Plog Teb</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/desigstype.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light " id="textnavbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id=""><b class="logoplogteb">Nriav Tus Hlub <span>Plog Teb  <i class="fas fa-hand-holding-heart" ></i></span></b></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0"></ul>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link disabled" id="contact" href="#" tabindex="-1" aria-disabled="true"><h5>ຕິດຕໍ່</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="https://www.facebook.com/nousua.sainther"><i class="fab fa-facebook" id="facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="http://api.whatsapp.com/send?phone=+85697348433"><i class="fab fa-whatsapp" id="whatapp"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href=""><i class="fab fa-instagram" id="intragram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="https://mail.google.com/mail/u/0/#inbox"><i class="fas fa-envelope" id="email"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" id="hmong" href="index.html">Hmong</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" id="laos" href="indexl.html">Laos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" id="english" href="indexe.html">English</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="loginl.php"><button id="login">ເຂົ້າສູ່ລະບົບ</button></a>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row" id="topimgandtext">
+            <div class="col-6">
+                <br><br><br>
+                <ins><p id="zoosiab">ຍິນດີ<span>ຕ້ອນ</span>ຮັບ</p></ins>
+                <br>
+                <form class="formgo"  action="showl.php" name="kuv" onsubmit="return lawm()">
+                    <table class="choose">
+                        <tr>
+                            <th class="neb">ຂ້ອຍແມ່ນ</th>
+                            <th class="neb">ຂ້ອຍຊອກຫາ</th>
+                        </tr>
+                        <tr id="choose">
+                            <td class="pojtxiv"><input type="radio" name="nou" value="koj"> ຜູ້ຊາຍ</td>
+                            <td class="pojtxiv"> <input type="radio" name="mu"> ຜູ້ຊາຍ</td>
+                        </tr>
+                        <tr id="choose1">
+                            <td class="pojtxiv"><input type="radio" name="nou" value="lawm"> ຜູ້ຍິ່ງ</td>
+                            <td class="pojtxiv"><input type="radio" name="mu"> ຜູ້ຍິ່ງ</td>
+                        </tr>
+                    </table>
+                    <p id="cais">ຖ້າທ່ານເຂົ້າມາໃນນີ້ແລ້ວຕ້ອງເຮັດຕາມກົດລະບຽບຂອງພວກເຮົາ 
+                        ຖ້າທ່ານລະເມີດກົດລະບຽນຂອງພວກເຮົາທ່ານຈະຖຶກປັບໝາຍຕາມກົດລະບຽບຂອງ<span>ພວກເຮົາ</span> </p><br>
+                    <button type="submit" id="Nriav1">ຊອກຫາ</button>
+                </form>
+            </div>
+            <div class="col-6">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/tib2.png"  class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/tib1.png"  class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/tib3.png"  class="d-block w-100" alt="">
+                      </div>
+                    </div>
+                    <!--<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </a>-->
+                </div>
+            </div>
+        </div>
+        <div class="row" id="slidetext">
+            <div class="col-12">
+                <button type="button" class="btn  btn-lg btn-block">
+                    <div class="row">
+                        <div class="col-4"> </div>
+                        <div class="col-3">
+                        </div>
+                        <div class="col-5"> 
+                            <marquee direction="right"><b><h4>ໃນເວລາທີ່ທ່ານເຫງົາ</h4></b></marquee>
+                        </div>
+                    </div>
+                    <marquee direction="left"><b><h2>ເຂົ້າມາຮ່ວມສະນຸກກັບພວກເຮົາໄດ້ໃນນີ້</h2></b></marquee>
+                </button>
+            </div>
+        </div>
+        <div class="row" id="threetextslide">
+            <div class="col-sm-6 col-md-4">
+                <i class="fas fa-hand-holding-heart"></i>
+                <br>
+                <b>ເປັນເສັ້ນທ່າງໃນການຊອກຫາຄູ່ຮັບ</b><br><br><br><span>2021.nujsuahawj</span><br></b> 
+            </div>
+            <div class="col-sm-6 col-md-4"  id="text2">
+                <i class="fas fa-hand-holding-heart"></i>
+                <br>
+                <b>ທ່ານສາມາດຊອກຫາຄູ່ໄດ້ຕະຫຼອດເວລາ<br>ໃນຍາມທີ່ທ່ານຕ້ອງການ</b><br><br><span>2021.nujsuahawj</span>
+            </div>
+            <div class="col-sm-6 col-md-4" id="text1">
+                <i class="fas fa-hand-holding-heart"></i>
+                <br>
+                <b>ສາມາດເຊື່ອຖືໄດ້ 100% </b><br><br><br><span>2021.nujsuahawj</span></b>
+            </div>
+        </div>
+        <h3 id="pebpabkoj"><b>ພວກເຮົາຊ່ວຍຫາຄູ່ໃຫ້ທ່ານ</b></h3>
+        <button type="button" class="btn btn-lg btn-block">
+            <i class="fas fa-heartbeat" id="logoshowhlub1"><i class="fas fa-long-arrow-alt-right"></i></i>
+            <i id="logoshowhlub2" class="fas fa-code-branch" ><i class="fas fa-long-arrow-alt-right"></i></i>
+            <i id="logoshowhlub3" class="far fa-kiss-wink-heart"></i>
+        </button>
+        <h3 class="kojmuajpheevxw"><b>ທ່ານສາມາດເຂົ້າມາເພີື່ອຊອກຫຄູ່ຮັບ</b>
+            <p>ບໍ່ວ່າທ່ານຈະຢູ່ໃສ່ເວລາໃດທ່ານກໍສາມາດ<br>ເຂົ້າມາໃນນີ້ເພື່ອຊອກູ່ຮັບຂອງທ່ານໄດ້ຕະຫຼອດເວລາ</p>
+            ຕາມທີ່ຕົວຢ່າງໃນດ້ານລຸ່ມນີ້
+        </h3>
+        <button type="button" class="btn btn-lg btn-block">
+            <iframe class="video1"  src="https://www.youtube-nocookie.com/embed/_WC2MnV7wsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </button>
+        <hr>
+        <div class="row g-0" id="imgandtextshow">
+            <div class="col-sm-6 col-md-4">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/nujsua1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>ຄັ້ງທຳອິດເມື່ອທ່ານເຫັນ</h5>
+                          <p>ຍາມເມື່ອທ່ານມາເທື່ອທຳອິດມັນຈະເປັນລັກສະນະແບບນີ້ທ່ານຈະໄດ້ເຫັນຄືກັບແບບນນີ້</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/nujsua2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>ເມື່ອທ່ານເຂົ້າມາເເລ້ວ</h5>
+                          <p>ເມື່ອທ່ານເຂົ້າມາໃນນີ້ແລ້ວທ່ານຈະໄດ້ຮູ້ເເລະເຫັນໃນລັກສະນະແບບນີ້ເລີຍ</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/nujsua3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>ເມື່ອທ່ານເຂົ້າມາແລ້ວທ່ານຈະໄດ້ຮັບ</h5>
+                          <p>ເມື່ອທ່ານເຂົ້າມາແລ້ວທ່ານຈະໄດ້ຮັບທຸກສິ່ງທຸກຢ່າງຄືກັບແບບນີ້</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden"></span>ດ້ານຫຼັງ
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">ດ້ານໜ້າ</span>
+                    </a>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-md-8">
+                <h3 class="kevlomzem"><b>ຄວາມສະໜຸກສະໜານທີ່ທ່ານຈະໄດ້ຮັບ</b></h3>
+                <p>
+                 ເມື່ອທ່ານເຂົ້າມາເເລ້ວມັນຈະບໍ່ເປັນການເສຍເວລາແລະຮູ້ສຶກໜ້າເບີື່ອເລີຍເພາະວ່າ
+                 ມີຜູ້ຍິ່ງທຸກໆຮູບແບບຕາມທີ່ທ່ານຕ້ອງການ ຕາມທີ່ທ່ານມັກ ເເລະທ່ານສາມາດເລີືອກ 
+                 ຜູ້ຍິ່ງທີ່ທ່ານມັກ ຖືກຕາມຮູບແບບຂອງທ່ານເລີຍ ເພາະວ່າພວກເຮົາຈະຊ່ວຍທ່ານຫາຄູ່ຮັບຂອງທ່ານ ຫຼືຊອກຫາຄູ່ໃຫ້ທ່ານໃນເວລາທີ່ທ່ານຕ້ອງການ
+                 ອິກຢ່າງໜຶ່ງພວກເຮົາຈະຊ່່ວຍມໃຫ້ທ່ານຄວາມສຸກຕະຫຼອກເວລາທີ່ທ່ານເຂົ້າມາໃນນີ້.
+                 <form action="" name="" class="" id=""><button type="submit" class="Nriav">ຊອກຫາ</button></form>
+                </p>
+            </div>
+          </div>
+          <hr>
+          <div class="row g-0" id="textandvideo">
+            <div class="col-sm-6 col-md-6">
+              <iframe width="560" height="380" class="video2" src="https://www.youtube-nocookie.com/embed/_aFFalreObw?start=50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6 col-md-6">
+              <h3 class="kevlomzem"><b>ທ່ານສາມາດໄວ້ວາງໃຈພວກເຮົາ</b></h3>
+              <p>
+                ທ່ານຈະບໍ່ຖືກຫລອກລວງເພາະວ່າທ່ານມີຄວາມສາມາດໂທໄດ້ 
+                ສົນທະນາກັບແຟນຫຼືແຟນຂອງທ່ານໃນທັນທີເລີຍວ່າມັນເປັນຄົນດຽວກັບຮູບພາບທີ່ທ່ານເຫັນບໍ່
+                ແລະທ່ານສາມາດໃຫ້ແນ່ໃຈວ່າທີ່ທ່ານຈະມີຄວາມມ່ວນ ເມື່ອທ່ານເຂົ້າມາຮ່ວມກັບພວກເຮົາຢູ່ໃນນີ້
+               ເພາະວ່າພວກເຮົາມີທຸກສິ່ງທີ່ທ່ານຕ້ອງການ ເເລະມັນຈະເປັນສິ່ງທີ່ດີຕໍ່ກັບທ່ານ
+               <form action="" name="" class="" id=""><button type="submit" class="Nriav">ຊອກຫາ</button></form>
+              </p>
+            </div>
+          </div>
+          <div class="row g-0" id="textandlogoshowlove">
+            <div class="col-sm-6 col-md-6">
+              <h3 class="kevlomzem"><b>ທ່ານສາມາດໄວ້ວາງໃຈພວກເຮົາ</b></h3>
+              <p>
+                ພວກເຮົາຈະຊ່ວຍທ່ານໃຫ້ມີຄວາມສຸກແບບນີ້ໄປຕະຫຼອດ 
+                ເພາະວ່າພວກເຮົາໄດ້ຊ່ວຍຫຼາຍທ່ານຫຼາຍຄູ່ທີ່ໄດ້ເຂົ້າມາໃນນີ້ແລ້ວ ເຮັດໃຫ້ພວກເຂົາມີຄວາມສຸກໃຈສຸກກາຍ 
+                ອິກຢ່າງໜຶ່ງພວກເຂົາໄດ້ຄູ່ຮັບຕາມທີ່ພວກເຂົາຕ້ອງການແລ້ວ.ຖ້າທ່ານເຂົ້າມາໃນນີ້ທ່ານກໍຈະກາຍເປັນອິກຄົນໜຶ່ງທີ່ຈະໄດ້ຮັບແບບນັ້ນເຊັນດຽວກັນ 
+                ນອກຈາກນັ້ນແລ້ວທ່ານຍັງຈະໄດ້ຮັບຄວາມສະໜຸກສະໜານມ່ວນຊືນໃນແບບຂອງທ່ານທີ່ທ່ານຕອ້ງການ
+                <form action="" name="" class="" id=""><button type="submit" class="Nriav">ຊອກຫາ</button></form>
+              </p>
+            </div>
+            <div class="col-sm-6 col-md-6"><i class="far fa-check-circle" id="logoshowlove"></i></div>
+          </div>
+          <hr>
+          <div class="row" id="textfoodter">
+            <div class="col-sm">
+              <h4>ຄວາມສະໜຸກສະໜານທີ່ທ່ານຈະໄດ້ຮັບເມື່ອເຂົ້າມາໃນນີ້</h4>
+              <p>ທ່ານຈະໄດ້ຮັບຕາມທີ່ທ່ານຕ້ອງການ
+                ໃນນີ້ມີທຸກໆແບບຜູ້ຍິ່ງຫຼືຊາຍທີ່ທ່ານຕ້ອງການ
+                ເພາະວ່າພວກເຮົາເຂົ້າໃຈແລະຮູ້ໃນສິ່ງທີ່ທ່ານຕ້ອງການ
+              </p>
+            </div>
+            <div class="col-sm">
+              <h4>ພວກເຮົາແມ່ນຊົນເຜົ່າມົ້ງ</h4>
+              <p>ພວກເຮົາແມ່ນເຜົ່າມົ້ງທີ່ອາໃສ່ຢູ່ໃນປະເທດລາວ. 
+                ພວກເຮົາຍິນດີແລະຕ້ອນຮັບທ່ານເຂົ້າມາໃນນີ້ ທຸກທີ່ທຸກເມື່ອ ທີ່ທ່ານຕອ້ງການ 
+                 ຂ້ອຍແມ່ນນູຊົ່ວ ເຮີ
+                ກຳລັງສຶກສາໃນມະຫາວິທະຍາໄລແຫ່ງ ຄະນະວິທະຍາສາດທຳມະຊາດ ພາກວິທະຍາສາດຄອມພິວເຕີ
+              </p>
+            </div>
+            <div class="col-sm">
+              <h4>ສອບຖາມຂໍ້ມູນເພີ່ມຕື່ມໄດ້ທີ່ນີ້</h4>
+              <a href="https://www.facebook.com/nousua.sainther"><i class="fab fa-facebook" id="ff"></i></a>
+              <a href="#"><i class="fab fa-instagram" id="fi"></i></a>
+              <a href="https://www.youtube.com/channel/UCQaitlfVPfJu5hFCiADlC1g?"><i class="fab fa-youtube" id="fy"></i></a>
+            </div>
+            <div class="row">
+              <div class="col-sm"></div>
+              <div class="col-sm">
+                <i class="fas fa-hand-holding-heart" id="logokawg" ></i><br>
+                <h5><b class="logoplogteb">Nriav Tus Hlub <span>Plog Teb</span></b><br></h5>
+                <p>Copyright &copy; 2021&middot;nujsuahawj &middot; <a href="https://mail.google.com/mail/u/0/#inbox">nousuasainther@gmail.com</a></p>
+              </div>
+              <div class="col-sm"></div>
+            </div>
+          </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/design.js"></script>
+</body>
+</html>

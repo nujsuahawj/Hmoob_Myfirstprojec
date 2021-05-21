@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigin</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styleform.css">
+</head>
+<body>
+    <form class="" method="POST" enctype="multipart/form-data" action="insertcustomer.php" name="" onsubmit="return login_error()">
+        <div class="login-box">
+            <h3>Sau Npe</h3>
+            <div class="textbox">
+                <p>Npe thiab xeem</p>
+                <input type="text" name="name_lastname"  placeholder="Npe thiab xeem" id="nl" >
+            </div>
+            <p class="error" id="nl_error" aria-autocomplete="off">Pab sau koj lub npe thiab xeem</p>
+            <div class="textbox">
+                <p>Leb xovtooj</p>
+                <input type="number" name="numberphome" id="nb" placeholder="Leb xovtooj" >
+            </div>
+            <p class="error" id="nb_error">Pab sau koj tus leb xovtooj</p>
+            <div class="textbox">
+                <p>Email</p>
+                <input type="email" name="email" placeholder="Email" id="email">
+            </div>
+            <p class="error" id="email_error" aria-autocomplete="off">Pab sau koj tus email</p>
+            <div class="textbox">
+                <p>Tus zauv</p>
+                <input type="password" name="password" placeholder="Tus zauv" id="password">
+            </div>
+            <p class="error" id="password_error" aria-autocomplete="off">Pab sau koj tus zauv</p>
+            <div class="textbox">
+                <p>Sau koj tus zauv ib zaug</p>
+                <input type="password" name="password_onemore" placeholder="Tus zauv" id="pwone">
+            </div>
+            <p class="error" id="pwone_error" aria-autocomplete="off">pab sau koj tus zaug</p>
+            <input type="submit" class="btn" value="Sau npe" >
+            <p class="foget_create"><a href="login.php">ID khag mus</a></p>
+        </div>
+    </form>
+  </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/designform.js"></script>
+</body>
+</html>
